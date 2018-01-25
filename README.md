@@ -15,8 +15,8 @@ Objective:
    ** Determine predictors
    ** Example prediction
 
-** Result
-Target variable: *"adopted_user"
+** Result**
+**Target variable: *"adopted_user"**
 
 **Predictors:**
 Visited_Count : the number of times a user logged in to the site
@@ -29,11 +29,10 @@ enabled_for_marketing_drip : whether they are on the regular marketing email dri
 org_id : the organization they belong
 invited_by_user_id : which user invited them to join
 
-** Example: Predict adopted user from org_id**
+**Example: Predict adopted user from org_id**
 * Use Logistic Regression / Classification
 * Use Kfold cross validation and Grid Search CV to determine the best regularization parameter (for model tuning)
 * Generate the accuracy score.
 
 Accuracy Score = 82%
 * Since the accuracy score for our model is 82%, it suggests that the risk that a portion of the sample is misclassified is 18%
-* 
